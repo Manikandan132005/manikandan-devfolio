@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manikandan M — Java Full Stack Developer. Portfolio showcasing projects, skills and experience." />
+  <title>Manikandan M | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2300e5ff'/><text x='16' y='23' text-anchor='middle' font-size='18' font-family='monospace' font-weight='bold' fill='%23050810'>M</text></svg>" type="image/svg+xml" />
+</head>
+<body>
+
+<!-- ░░░ BACKGROUND MESH ░░░ -->
+<div class="bg-mesh" aria-hidden="true"></div>
+
+<!-- ░░░ PROGRESS BAR ░░░ -->
+<div id="progress-bar" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════════ -->
+<header id="navbar" role="banner">
+  <nav class="nav-inner" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo" aria-label="Go to top">
+      <div class="nav-logo-icon" aria-hidden="true">M</div>
+      <span class="nav-logo-text">Portfolio</span>
+    </a>
+
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links" role="menubar">
+      <a href="#about"          role="menuitem">About</a>
+      <a href="#skills"         role="menuitem">Skills</a>
+      <a href="#projects"       role="menuitem">Projects</a>
+      <a href="#education"      role="menuitem">Education</a>
+      <a href="#certifications" role="menuitem">Certs</a>
+      <a href="#contact"        role="menuitem">Contact</a>
+      <a href="https://drive.google.com/file/d/1cKNlr07j66TQuGa177Cgzk8DRmXXCEFg/view?usp=drivesdk"
+         target="_blank" rel="noopener noreferrer"
+         class="btn-resume" role="menuitem">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════ -->
+<section id="hero" aria-label="Introduction">
+  <div class="container">
+    <div class="hero-grid">
+      <!-- Text Column -->
+      <div class="hero-content">
+        <div class="hero-eyebrow reveal">
+          Hello, World!
+        </div>
+        <h1 class="hero-name reveal reveal-delay-1">
+          <span class="gradient-text">Manikandan M</span><br>
+        </h1>
+        <div class="hero-roles reveal reveal-delay-2" aria-live="polite">
+          <span id="typing-text"></span>
+          <span class="typing-cursor" aria-hidden="true"></span>
+        </div>
+        <p class="hero-tagline reveal reveal-delay-3">
+          <span>Engineering Reliable Full Stack Java Systems.</span><br>
+          Building robust, scalable web applications end-to-end.
+        </p>
+        <div class="hero-cta reveal reveal-delay-4">
+          <a href="#projects" class="btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 20h20M6 20V10l6-6 6 6v10"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats reveal reveal-delay-5">
+          <div class="stat-item">
+            <div class="stat-number" data-target="1" data-suffix="+">0+</div>
+            <div class="stat-label">Project Built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="2" data-suffix=" mo">0 mo</div>
+            <div class="stat-label">Internship</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="5" data-suffix="+">0+</div>
+            <div class="stat-label">Tech Stack</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="847" data-suffix="">0</div>
+            <div class="stat-label">CGPA × 100</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Picture Column -->
+      <div class="hero-picture-wrap reveal reveal-delay-2">
+        <div class="hero-picture-ring">
+          <div class="hero-picture-inner">
+            <img src="https://drive.google.com/thumbnail?id=1-r6VxTSrHZwq8O-8w22UhO3MCgdq-KLi&sz=w400"
+                 alt="Manikandan M — Java Full Stack Developer"
+                 loading="eager"
+                 onerror="this.src='https://ui-avatars.com/api/?name=Manikandan+M&background=0a0f1e&color=00e5ff&size=400&font-size=0.35&bold=true'"/>
+          </div>
+        </div>
+        <div class="hero-picture-badge">
+          <div class="badge-dot" aria-hidden="true"></div>
+          <div class="badge-text">
+            <strong>Open to Work</strong>
+            Dindigul, TN
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════ -->
+<section id="about" class="section" aria-label="About me">
+  <div class="container">
+    <div class="section-label reveal">About</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      Who <span class="gradient-text">I Am</span>
+    </h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="reveal">
+          I'm a <strong>BTech Information Technology</strong> graduate passionate about <strong>Full Stack Java Development</strong>. I build web applications using Java, Spring Framework, React, HTML, CSS, JSP, JavaScript, and MySQL.
+        </p>
+        <p class="reveal reveal-delay-1">
+          Through an internship at <strong>Femtosoft Technologies</strong> as a Full Stack Web Developer, I gained hands-on experience building and maintaining web applications. I contributed to both front-end and back-end development — creating responsive UIs, designing databases, and implementing core business logic.
+        </p>
+        <p class="reveal reveal-delay-2">
+          I collaborated closely with senior developers, participated in code reviews, and understood real-time project workflows within a professional environment. This experience sharpened my problem-solving abilities and deepened my appreciation for clean, scalable code.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-item reveal reveal-delay-1">
+            <div class="highlight-icon" aria-hidden="true">🎓</div>
+            <div class="highlight-info">
+              <div class="highlight-title">BTech Information Technology</div>
+              <div class="highlight-desc">Global Institute of Engineering Technology — CGPA 8.47</div>
+            </div>
+          </div>
+          <div class="highlight-item reveal reveal-delay-2">
+            <div class="highlight-icon" aria-hidden="true">💼</div>
+            <div class="highlight-info">
+              <div class="highlight-title">Full Stack Intern — Femtosoft Technologies</div>
+              <div class="highlight-desc">Java · HTML · CSS · JS · SQL (2 months)</div>
+            </div>
+          </div>
+          <div class="highlight-item reveal reveal-delay-3">
+            <div class="highlight-icon" aria-hidden="true">📍</div>
+            <div class="highlight-info">
+              <div class="highlight-title">Dindigul, TamilNadu</div>
+              <div class="highlight-desc">Open to remote & on-site opportunities</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-info-cards">
+        <div class="glass-card info-card reveal">
+          <div class="info-card-header">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6 19.79 19.79 0 0 1 1.61 5a2 2 0 0 1 1.53-2.14l3-.79a2 2 0 0 1 2 .81l1.5 2.4a2 2 0 0 1-.06 2.2l-.84 1.12a16 16 0 0 0 5.58 5.58l1.12-.84a2 2 0 0 1 2.2-.06l2.4 1.5a2 2 0 0 1 .81 2z"/></svg>
+            Contact
+          </div>
+          <div class="info-card-body">
+            <strong style="color:var(--text-primary)">Email:</strong> maniff322@gmail.com<br>
+            <strong style="color:var(--text-primary)">Location:</strong> Dindigul, TamilNadu<br>
+            <strong style="color:var(--text-primary)">Domain:</strong> Software Development<br>
+            <strong style="color:var(--text-primary)">Status:</strong> <span style="color:var(--accent-green)">Open for Opportunities</span>
+          </div>
+        </div>
+
+        <div class="glass-card info-card reveal reveal-delay-1">
+          <div class="info-card-header">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Tech Focus
+          </div>
+          <div class="info-card-body">
+            Specializing in <strong style="color:var(--accent-cyan)">Java Full Stack</strong> development with proficiency in Spring Boot, Spring MVC, and RESTful API design. Frontend experience with React and responsive design principles. Database expertise in MySQL and H2.
+          </div>
+        </div>
+
+        <div class="glass-card info-card reveal reveal-delay-2">
+          <div class="info-card-header">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Philosophy
+          </div>
+          <div class="info-card-body">
+            I believe great software is <strong style="color:var(--accent-cyan)">reliable, readable, and scalable</strong>. Every line of code I write aims to solve a real problem efficiently while remaining maintainable for the team.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════════ -->
+<section id="skills" class="section" aria-label="Skills">
+  <div class="container">
+    <div class="section-label reveal">Expertise</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      Tech <span class="gradient-text">Stack</span>
+    </h2>
+
+    <div class="skills-grid">
+      <!-- Frontend -->
+      <div class="glass-card skill-category-card reveal">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">🖥️</span>
+          Front-End
+        </div>
+        <div class="skill-category-sub">UI Layer</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-cyan">HTML5</span>
+          <span class="skill-chip chip-cyan">CSS3</span>
+          <span class="skill-chip chip-cyan">JavaScript</span>
+          <span class="skill-chip chip-cyan">JSP</span>
+          <span class="skill-chip chip-cyan">React</span>
+          <span class="skill-chip chip-cyan">Responsive Design</span>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="glass-card skill-category-card reveal reveal-delay-1">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">⚙️</span>
+          Back-End
+        </div>
+        <div class="skill-category-sub">Server Layer</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-blue">Java</span>
+          <span class="skill-chip chip-blue">Spring Boot</span>
+          <span class="skill-chip chip-blue">Spring MVC</span>
+          <span class="skill-chip chip-blue">Servlets</span>
+          <span class="skill-chip chip-blue">REST APIs</span>
+          <span class="skill-chip chip-blue">OOP</span>
+        </div>
+      </div>
+
+      <!-- Database -->
+      <div class="glass-card skill-category-card reveal reveal-delay-2">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">🗄️</span>
+          Database
+        </div>
+        <div class="skill-category-sub">Data Layer</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-green">MySQL</span>
+          <span class="skill-chip chip-green">H2 Database</span>
+          <span class="skill-chip chip-green">SQL</span>
+          <span class="skill-chip chip-green">Schema Design</span>
+        </div>
+      </div>
+
+      <!-- Frameworks -->
+      <div class="glass-card skill-category-card reveal reveal-delay-3">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">🏗️</span>
+          Frameworks
+        </div>
+        <div class="skill-category-sub">Tooling</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-violet">Spring Boot</span>
+          <span class="skill-chip chip-violet">Spring MVC</span>
+          <span class="skill-chip chip-violet">Servlets</span>
+          <span class="skill-chip chip-violet">Spring Framework</span>
+        </div>
+      </div>
+
+      <!-- Developer Tools -->
+      <div class="glass-card skill-category-card reveal reveal-delay-4">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">🛠️</span>
+          Developer Tools
+        </div>
+        <div class="skill-category-sub">Workflow</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-orange">VS Code</span>
+          <span class="skill-chip chip-orange">Eclipse</span>
+          <span class="skill-chip chip-orange">IntelliJ IDEA</span>
+          <span class="skill-chip chip-orange">Git</span>
+          <span class="skill-chip chip-orange">GitHub</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="glass-card skill-category-card reveal reveal-delay-5">
+        <div class="skill-category-title">
+          <span class="skill-category-icon" aria-hidden="true">🤝</span>
+          Soft Skills
+        </div>
+        <div class="skill-category-sub">People Layer</div>
+        <div class="skill-chips">
+          <span class="skill-chip chip-cyan">Problem Solving</span>
+          <span class="skill-chip chip-cyan">Team Collaboration</span>
+          <span class="skill-chip chip-cyan">Code Review</span>
+          <span class="skill-chip chip-cyan">Documentation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════ -->
+<section id="projects" class="section" aria-label="Projects">
+  <div class="container">
+    <div class="section-label reveal">Work</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      Featured <span class="gradient-text">Projects</span>
+    </h2>
+
+    <div class="projects-filter reveal reveal-delay-2" role="group" aria-label="Project filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web-api">Web API</button>
+      <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project: Student Attendance -->
+      <article class="glass-card project-card reveal" data-category="web-api">
+        <div class="project-card-top">
+          <div class="project-header">
+            <div class="project-icon-wrap" aria-hidden="true">🎓</div>
+            <div class="project-links">
+              <a href="https://github.com/Manikandan132005/Student-Management-System.git"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link-btn" aria-label="View source on GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-status">Complete</div>
+          <h3 class="project-title">Student Attendance &amp; Results Management System</h3>
+          <p class="project-desc">
+            A web-based system to manage student attendance and academic results. Features include user authentication, role-based access control for admins and students, attendance tracking per subject, and result publication. Implemented with a clean separation of concerns across front-end, back-end, and database layers.
+          </p>
+        </div>
+        <div class="project-card-bottom">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Spring Boot</span>
+        </div>
+      </article>
+
+    </div><!-- /.projects-grid -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     EDUCATION
+═══════════════════════════════════════════════ -->
+<section id="education" class="section" aria-label="Education">
+  <div class="container">
+    <div class="section-label reveal">Background</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      <span class="gradient-text">Education</span>
+    </h2>
+
+    <div class="education-timeline">
+
+      <article class="glass-card edu-item reveal">
+        <div class="edu-header">
+          <div>
+            <div class="edu-degree">BTech — Information Technology</div>
+            <div class="edu-institute">Global Institute of Engineering Technology</div>
+          </div>
+          <div class="edu-meta">
+            <span class="edu-badge">Graduated 2026</span>
+            <span class="edu-year">2022 – 2026</span>
+          </div>
+        </div>
+        <div class="edu-location">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Ranipet, TamilNadu
+        </div>
+        <p class="edu-desc">
+          Actively participated in organizing workshops, seminars, and symposium events during college years. Maintained a CGPA of <strong style="color:var(--accent-cyan)">8.47</strong> in Information Technology. Gained hands-on experience with computer hardware in the college lab, improving practical understanding of system components.
+        </p>
+        <div class="edu-highlights">
+          <span class="tag">CGPA: 8.47</span>
+          <span class="tag">Workshops</span>
+          <span class="tag">Symposiums</span>
+          <span class="tag">Hardware Lab</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CERTIFICATIONS
+═══════════════════════════════════════════════ -->
+<section id="certifications" class="section" aria-label="Certifications">
+  <div class="container">
+    <div class="section-label reveal">Credentials</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      <span class="gradient-text">Certifications</span>
+    </h2>
+
+    <div class="certs-grid">
+
+      <div class="glass-card cert-card reveal">
+        <div class="cert-platform-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Udemy
+        </div>
+        <h3 class="cert-name">JavaScript Fundamentals to Advanced</h3>
+        <div class="cert-date">📅 March 2025</div>
+        <div class="cert-skills">
+          <span class="tag">JavaScript</span>
+          <span class="tag">Full Stack Development</span>
+          <span class="tag">Web Dev</span>
+        </div>
+        <a href="https://ude.my/UC-db91a003-9774-464d-b1e4-832cd40931b9"
+           target="_blank" rel="noopener noreferrer"
+           class="cert-verify-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Verify Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CTA
+═══════════════════════════════════════════════ -->
+<section id="cta" class="section" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <div class="cta-availability">Open for Opportunities</div>
+      <h2 class="cta-title">
+        Let's Work <span class="gradient-text">Together!</span>
+      </h2>
+      <p class="cta-sub">
+        I'm actively seeking full-time roles and internships in Java Full Stack Development. Let's build something great.
+      </p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Send Message
+        </a>
+        <a href="https://drive.google.com/file/d/1cKNlr07j66TQuGa177Cgzk8DRmXXCEFg/view?usp=drivesdk"
+           target="_blank" rel="noopener noreferrer"
+           class="btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════════ -->
+<section id="contact" class="section" aria-label="Contact">
+  <div class="container">
+    <div class="section-label reveal">Let's Connect</div>
+    <h2 class="section-title reveal reveal-delay-1">
+      Get In <span class="gradient-text">Touch</span>
+    </h2>
+
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="contact-info">
+
+        <div class="glass-card contact-item reveal">
+          <div class="contact-item-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact-item-label">Email</div>
+            <div class="contact-item-value">
+              <a href="mailto:maniff322@gmail.com">maniff322@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card contact-item reveal reveal-delay-1">
+          <div class="contact-item-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-item-label">Location</div>
+            <div class="contact-item-value">Dindigul, TamilNadu, India</div>
+          </div>
+        </div>
+
+        <div class="glass-card contact-item reveal reveal-delay-2">
+          <div class="contact-item-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div>
+            <div class="contact-item-label">Domain</div>
+            <div class="contact-item-value">Software Development — Java Full Stack</div>
+          </div>
+        </div>
+
+        <div class="glass-card contact-item reveal reveal-delay-3">
+          <div class="contact-item-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <div class="contact-item-label">Availability</div>
+            <div class="contact-item-value" style="color:var(--accent-green)">Open for Opportunities</div>
+          </div>
+        </div>
+
+        <div class="social-links reveal reveal-delay-4">
+          <a href="https://www.linkedin.com/in/manikandanmurugesan2005"
+             target="_blank" rel="noopener noreferrer"
+             class="social-btn" aria-label="LinkedIn profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Manikandan132005"
+             target="_blank" rel="noopener noreferrer"
+             class="social-btn" aria-label="GitHub profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div><!-- /contact-info -->
+
+      <!-- Form -->
+      <div class="glass-card contact-form reveal reveal-delay-2">
+        <h3 class="form-title">Send a Message</h3>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Name <span style="color:#ff6b6b">*</span></label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email <span style="color:#ff6b6b">*</span></label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" autocomplete="email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message <span style="color:#ff6b6b">*</span></label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message →</button>
+          <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        Manikandan M
+        <span>Java Full Stack Developer</span>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 Manikandan M. Built with HTML · CSS · JS
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/manikandanmurugesan2005"
+           target="_blank" rel="noopener noreferrer"
+           class="footer-social-btn" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/Manikandan132005"
+           target="_blank" rel="noopener noreferrer"
+           class="footer-social-btn" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="mailto:maniff322@gmail.com"
+           class="footer-social-btn" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
